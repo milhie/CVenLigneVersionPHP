@@ -1,0 +1,175 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	color: #3b4252;
+}
+#page
+{
+	height: 100%;
+	display: flex;
+	font-size:0.8em;
+}
+h1
+{
+	font-size: 2em;
+}
+
+h2
+{
+	font-size: 1.5em;
+}
+h3
+{
+	font-size: 1.2em;
+}
+a:hover
+{
+	color: #3b4252;
+}
+#page aside
+{
+	width: 30%;
+	background-color: #ffd43b;
+	color: black;
+}
+#page aside header
+{
+	height: 40%;
+}
+#page aside #about
+{
+	height: 35%;
+}
+#page aside #loisirs
+{
+	height: 25%;
+}
+#page aside header img
+{
+	width: 50%;
+	border-radius: 50%;
+	text-align: center;
+	padding: auto;
+}
+
+#page aside #photoCV, #page aside h3
+{
+	padding: auto;
+	text-align: center;
+	color: #ffd43b;
+}
+
+#page aside .title
+{
+	background-color: #3b4252;
+	padding-top: 0;
+	padding-bottom: 0;
+	
+}
+
+aside p
+{
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#page aside header #age
+{
+	text-align:center;
+}
+aside .logos
+{
+	display: flex;
+	flex-direction: row;
+}
+aside .logo img
+{
+	width: 90%;
+}
+
+aside #loisirs
+{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#prenom
+{
+	color: #ffd43b;
+}
+
+#underline
+{
+	text-decoration: underline #ffd43b 2px;
+}
+
+#page main
+{
+	width: 70%;
+	background-color: #ffd43b 0.5;
+	padding: 50px;
+	padding-top: 5px;
+}
+#page main header
+{
+	padding-top: 0;
+}
+#page main .title
+{
+	border-bottom: solid 2px #ffd43b;
+}
+#page main table
+{
+	text-align: left;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#page main img
+{
+	width: 5%;
+	height: 5%;
+	float: left;
+}
+#page main table th
+{
+	display: flex;
+	flex-direction: row;
+}
+#page main table .small
+{
+	font-size: 0.6em;
+}
+#page .title
+{
+	display:flex;
+}
+
+#page .title p img
+{
+	width: 50px;
+	height: 50px;
+}
+#page .title p
+{
+	padding-right: 0;
+}
+#page .title h2
+{
+	padding-top: 10px;
+}
+
+#comp
+{
+	display: flex;
+}
+
+#comp ul
+{
+	list-style: none;
+}
+
+#comp ul li
+{
+	padding: 20px;
+}
