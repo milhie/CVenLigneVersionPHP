@@ -6,7 +6,7 @@ body
 }
 #page
 {
-	height: 100%;
+	width: 1024px;
 	display: flex;
 	font-size:0.8em;
 }
@@ -35,16 +35,9 @@ a:hover
 }
 #page aside header
 {
-	height: 40%;
+	height:50%;
 }
-#page aside #about
-{
-	height: 35%;
-}
-#page aside #loisirs
-{
-	height: 25%;
-}
+
 #page aside header img
 {
 	width: 50%;
@@ -88,13 +81,7 @@ aside .logo img
 	width: 90%;
 }
 
-aside #loisirs
-{
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
-
-#prenom
+#name
 {
 	color: #ffd43b;
 }
@@ -136,9 +123,30 @@ aside #loisirs
 	display: flex;
 	flex-direction: row;
 }
+#page main table
+{
+	padding-top: 20px;
+	padding-bottom: 0;
+}
 #page main table .small
 {
 	font-size: 0.6em;
+
+}
+#page main table caption
+{
+	text-align: left;
+	padding-top:20px;
+}
+#page main table tr
+{
+	margin-top: 0;
+	padding-top: 0;
+}
+#page main table th div
+{
+	display: flex;
+	flex-direction: column;
 }
 #page .title
 {

@@ -67,22 +67,31 @@
                     
                     </div>
                     <table>
+                        <caption>Parcours scolaire:</caption>
                         <tr>
-                            <th><img src="pucel.png" alt="puce"> 2011:</th>
+                            <th><img src="puce.png" alt="puce"><div>2003-2006: <br/><span class="small">Université Paul Sabatier <br/>Toulouse(31)</span></div></th>
+                            <td>IUT Génie Mécanique et Productique (niveau)</td>
+                        </tr>
+                        <tr>
+                            <th><img src="puce.png" alt="puce"><div>2003: <span class="small">Lycée St Joseph, <br/>Rodez (12)</span></th>
+                            <td>BAC S SI (Sciences de l'Ingénieur)</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <caption>Secourisme:</caption>
+                        <tr>
+                            <th><img src="pucel.png" alt="puce"><div> 2011:<span class="small">Croix Rouge Française <br/>Toulouse (31)</span></div></th>
                             <td>DEA (Diplôme d'Etat d'Ambulancier)</td>
                         </tr>
                         <tr>
-                            <th><img src="puce.png" alt="puce"> 2010:</th>
+                            <th><img src="puce.png" alt="puce"> <div>2010:<span class="small">CESU31 <br/>Toulouse(31)</span></div></th>
                             <td>AFGSU II (Attestation de Formaion aux Gestes et Soins d'Urgence niveau 2); dernier recyclage le 03/06/2019</td>
                         </tr>
                         <tr>
                             <th><img src="puce.png" alt="puce"> 2009:</th>
                             <td>PSC1 (Prévention et Secours Civiques de niveau 1)</td>
                         </tr>
-                        <tr>
-                            <th><img src="puce.png" alt="puce"> 2003-2006</th>
-                            <td>IUT Génie mécanique et productique (niveau)</td>
-                        </tr>
+                        
                         <tr>
                             <th><img src="puce.png" alt="puce"> 2003:</th>
                             <td>BNSSA (Brevet National de Sécurité et de Sauvetage Aquatique)</td>
@@ -91,10 +100,7 @@
                             <th><img src="puce.png" alt="puce"> 2003:</th>
                             <td>AFCPSAM (Attestation de Formation Complémentaire aux Premiers Secours Avec Matériel)</td>
                         </tr>
-                        <tr>
-                            <th><img src="puce.png" alt="puce"> 2003:</th>
-                            <td>BAC S SI (Sciences de l'Ingénieur)</td>
-                        </tr>
+                        
                         <tr>
                             <th><img src="puce.png" alt="puce"> 2001:</th>
                             <td>AFPS (Attestaion de Formation aux Premiers Secours)</td>
@@ -109,23 +115,23 @@
 
                     <table>
                         <tr>
-                            <th><img src="pucel.png" alt="puce"> Depuis 2011<br/>Ambulances St Ambroise <br/>Toulouse</th>
+                            <th><img src="pucel.png" alt="puce"> <div>Depuis 2011 <span class="small"> Ambulances St Ambroise <br/>Toulouse</span></div></th>
                             <td>Ambulancière</td>
                         </tr>
                         <tr>
-                            <th><img src="puce.png" alt="puce"> 2007-2011<br/>Ambulances St Ambroise <br/>Toulouse</th>
+                            <th><img src="puce.png" alt="puce"><div> 2007-2011<span class="small">Ambulances St Ambroise <br/>Toulouse</span></div></th>
                             <td>Auxiliaire Ambulancière</td>
                         </tr>
                         <tr>
-                            <th><img src="puce.png" alt="puce"> 2005-2007:<br/>Alacita<br/>Balma</th>
+                            <th><img src="puce.png" alt="puce"><div>2005-2007:<span class="small">Alacita<br/>Balma</span></div></th>
                             <td>Service en salle et barmaid </td>
                         </tr>
                         <tr>
-                            <th><img src="puce.png" alt="puce"> Etés 2003-2004-2005:<br/>Plages des Vernhes<br/>Salles-Curan</th>
+                            <th><img src="puce.png" alt="puce"><div> Etés 2003-2004-2005:<span class="small">Plages des Vernhes<br/>Salles-Curan</span></div></th>
                             <td>Surveillance seule d'une plage au bord du lac de Pareloup.</td>
                         </tr>
                         <tr>
-                            <th><img src="puce.png" alt="puce"> Eté 2005:<br/>Piscine municipale<br/>Rodez</th>
+                            <th><img src="puce.png" alt="puce"><div> Eté 2005:<span class="small">Piscine municipale<br/>Rodez</span></div></th>
                             <td>Surveillance en équipe</td>
                         </tr>
                     </table>
@@ -148,7 +154,7 @@
                                 <li>Sang-froid</li>
                             </ul>
                             <ul>
-                                <li>Riguoureuse</li>
+                                <li>Rigoureuse</li>
                                 <li>Réactive</li>
                                 <li>Autodidacte</li>
                             </ul>
