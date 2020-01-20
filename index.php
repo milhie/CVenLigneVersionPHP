@@ -22,9 +22,11 @@
                     <p class="content">adresse: <br/>270 rue des mandres 31340 <br/>Mirepoix sur Tarn</p>
                     <p>Téléphone: <br/>06-47-58-79-21</p>
 
-                    <p>site web:<a href="http://www.milhiecreation .com"> http://www.milhiecreation.com.</a> </p>
+                    <p>site web:<a href="http://www.milhiecreation.com"> http://www.milhiecreation.com.</a> </p>
                     <p><a href="https://milhie.github.io/CVenLigne/">Mon CV</a> en ligne.</p>
                     <p>Mon CV en version <a href="http://www.milhiecreation.com/CV/CV-Emilie.pdf"> PDF </a></p>
+                    
+                    
                    
                 </header>
 
@@ -56,7 +58,7 @@
 
             <main>
                 <header>
-                    <h1><span id="prenom">Emilie</span> Delsol</h1>
+                    <h1><span id="name">Emilie</span> Delsol</h1>
                     <h2><span id="underline">Etudiante</span> développeuse web </h2>
                 </header>
 

@@ -18,7 +18,7 @@
    	</fieldset>
    	<fieldset>
    		<label for="message">Votre message:</label>
-   		<textarea name="message" id="message" rows="10" cols="50" required>
+   		<textarea name="message" id="message" rows="10" cols="50" required></textarea>
    	</fieldset>
  
    

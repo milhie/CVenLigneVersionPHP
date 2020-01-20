@@ -9,6 +9,7 @@ body
 	width: 1024px;
 	display: flex;
 	font-size:0.8em;
+	background-color: rgba(255, 246, 220, 1)
 }
 h1
 {
@@ -35,7 +36,7 @@ a:hover
 }
 #page aside header
 {
-	height:50%;
+	height:58%;
 }
 
 #page aside header img
@@ -137,6 +138,7 @@ aside .logo img
 {
 	text-align: left;
 	padding-top:20px;
+	text-decoration: underline;
 }
 #page main table tr
 {
