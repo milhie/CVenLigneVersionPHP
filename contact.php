@@ -12,10 +12,11 @@
   <head>
     <meta charset="utf-8">
     <title>Formulaire de Contact</title>
-    <link rel="stylesheet" type="text/css" href="styleform.css">
+    <link rel="stylesheet" href="styleform.css" type="text/css" media="all"/>
   </head>
   <body>
-
+    <div id="blocpage">
+      
 
     <h2>Formulaire de Contact</h2>
 
@@ -41,5 +42,7 @@
       
       <div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer le formulaire !" /></div>
     </form>
+
+  </div>
   </body>
 </html>
