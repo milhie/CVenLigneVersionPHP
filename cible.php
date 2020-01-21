@@ -16,7 +16,7 @@ $copie = 'oui';
 $form_action = '';
 
 // Messages de confirmation du mail
-$message_envoye = "Votre message nous est bien parvenu ! <br /> Retourner au <a href='https://milhie.github.io/CVenLigne/'> CV </a>";
+$message_envoye = "Votre message nous est bien parvenu ! <br /> Vous allez recevoir une copie de ce message par mail.<br /> <br /> Retourner au <a href='https://milhie.github.io/CVenLigne/'> CV </a>";
 $message_non_envoye = "L'envoi du mail a échoué, veuillez réessayer SVP.";
 
 // Message d'erreur du formulaire
