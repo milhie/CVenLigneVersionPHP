@@ -1,21 +1,45 @@
+<?php
+  // on inclue le fichier des questions/réponses
+  require_once('antispam.php');
+ 
+  // on tire au sort une question
+  $nospam = NoSpamQuestion('ask', 0);
+?>
 
-<div id="formulaire_contact">
-      <form method="post" name="formulaire" action="mail.php">
- 
-        <label for="nom"><em class="police_contact">Nom</em></label>
-        <input type="text" id="nom" name="nom">
- 
-        <label for="mail"><em class="police_contact">Mail</em></label>
-        <input type="text" id="mail" name="mail">
- 
-        <label for="telephone"><em class="police_contact">Téléphone</em></label>
-        <input type="text" id="telephone" name="telephone">
- 
-        <label for="message"><em class="police_contact">Message</em></label>
-        <textarea id="message" name="message" style="height:100px"></textarea>
- 
-        <input type="submit" value="Envoyer">
- 
-      </form>
- 
-  </div>
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulaire de Contact</title>
+    <link rel="stylesheet" type="text/css" href="styleform.css">
+  </head>
+  <body>
+
+
+    <h2>Formulaire de Contact</h2>
+
+    <p>Mon profil vous plait? Vous pouvez me contacter via le formulaire ci-dessous:</p>
+    <form id="contact" method="post" action="cible.php">
+      <fieldset>
+        <legend>Vos coordonnées</legend>
+        <p><label for="nom">Nom:</label><input type="text" id="nom" name="nom" value="<?php if (isset($_POST['nom'])){echo$_POST['nom'];} ?> "></p>
+
+        <p><label for="email">Email :</label><input type="text" id="email" name="email" value="<?php if (isset($_POST['mail'])){echo$_POST['mail'];} ?> "/></p>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Votre message :</legend>
+        <p><label for="objet">Objet :</label><input type="text" id="objet" name="objet" value="<?php if (isset($_POST['objet'])){echo$_POST['objet'];} ?>" >
+        </p>
+
+        <p><label for="message">Message :</label><textarea id="message" name="message" placeholder="votre message" cols="30" rows="8"><?php if (isset($_POST['message'])) {echo $_POST['message'];} ?></textarea></p>
+
+        <p><label for="code">Ecrivez en LETTRES le résultat : <?php echo $nospam['question']; ?></label><input type="text" name="code" id="code" /><input type="hidden" name="nospam_question" value="<?php echo $nospam['num']; ?>" /></p>
+      </fieldset>
+      
+      <div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer le formulaire !" /></div>
+    </form>
+  </body>
+</html>

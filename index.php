@@ -25,6 +25,8 @@
                     <p>site web:<a href="http://www.milhiecreation.com"> http://www.milhiecreation.com.</a> </p>
                     <p><a href="https://milhie.github.io/CVenLigne/">Mon CV</a> en ligne.</p>
                     <p>Mon CV en version <a href="http://www.milhiecreation.com/CV/CV-Emilie.pdf"> PDF </a></p>
+                    <p>Mon CV vous plaît? Vous pouvez me contacter via: <a href="http://localhost/CVphp/CVenLigneVersionPHP/contact.php"> ce formulaire </a></p>
+                    <p>Ou par mail: <a href="mailto:cvmilhie@gmail.com">cvmilhie@gmail.com</a></p>
                     
                     
                    
