@@ -1,4 +1,33 @@
 #blocpage
 {
-	background-color: black:;
+	background-image: linear-gradient(to bottom, rgba(255,255,0,0.6), rgba(0,0,255,0.6)),url("CVEmilieDessin.png");
+	background-repeat: no-repeat;
+	text-decoration: bold;
+
+}
+
+header
+{
+	text-align: center;
+	
+}
+form
+{
+	
+	text-align: center;
+}
+legend
+{
+	display:block; 
+	width:150px; 
+	margin:auto;
+}
+
+#bouton
+{
+	text-align: center;
+}
+span
+{
+	background-color: rgba(255,255,0,0.3);
 }
