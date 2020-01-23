@@ -77,7 +77,7 @@
                             <td>IUT Génie Mécanique et Productique (niveau)</td>
                         </tr>
                         <tr>
-                            <th><img src="puce.png" alt="puce"><div>2003: <span class="small">Lycée St Joseph, <br/>Rodez (12)</span></th>
+                            <th><img src="puce.png" alt="puce"><div>2003: <span class="small">Lycée St Joseph, <br/>Rodez (12)</span></div></th>
                             <td>BAC S SI (Sciences de l'Ingénieur)</td>
                         </tr>
                     </table>
