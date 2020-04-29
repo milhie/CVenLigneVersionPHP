@@ -18,7 +18,7 @@
             <aside>
                 <header>
                     <p id="photoCV"><img src="photoCV.jpg" alt="ma photoCV" ></p>
-                    <p id="age">34 ans</p>
+                    <p id="age">35 ans</p>
                     <div class="title">
                         <p><img src="plume.png" alt="plume"></p>
                         <h3>Contact</h3>
