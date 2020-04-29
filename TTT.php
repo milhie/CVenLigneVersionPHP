@@ -18,7 +18,7 @@ if (isset($_POST['envoi']))
 	*/
 	
 	// destinataire est votre adresse mail. Pour envoyer à plusieurs à la fois, séparez-les par une virgule
-	$destinataire = 'cvmilhie@gmail.com';
+	$destinataire = 'contact@milhiecreation.com';
      
 	// copie ? (envoie une copie au visiteur)
 	$copie = 'oui'; // 'oui' ou 'non'
