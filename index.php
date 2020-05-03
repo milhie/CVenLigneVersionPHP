@@ -7,7 +7,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-
+	<link rel="shortcut icon" type="image/png" href="https://img.icons8.com/wired/64/000000/resume.png"/>
         <title>CV Emilie</title>
     </head>
 
